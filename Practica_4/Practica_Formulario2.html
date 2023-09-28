@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    
+<form method="post" action="">
+    <fieldset>
+        <legend>Indique sus preferencias por favor</legend>
+        Elija una fecha:<input type="date"> <br />
+        Elija un archivo:<input type="file" value="Escoger"> <br />
+        <input type='radio' name='procesador' value='procesadoramd'> AMD
+        <input type='radio' name='procesador' value='procesadorintel_i5'> AMD
+        <input type='radio' name='procesador' value='procesadorintel_i7'> AMD
+        <br />
+    </fieldset>
+
+<fieldset>
+    <legend>Indique sus preferencias por favor</legend>
+    <input type='radio' name='asignatura' value='asignaturamatematicas'> Matematicas
+    <input type='radio' name='asignatura' value='asignaturahistoria'> Historia
+    <input type='radio' name='asignatura' value='asignaturageografia'> Geografia
+    <input type='radio' name='asignatura' value='asignaturalengua'> Lengua
+    <br />
+    Nombre <input type="text" name="nombre" required> <br />
+    Apellidos <input type="text" name="apellidos" required> <br />
+    Direccion <input type="text" name="direccion" required> <br />
+    <br />
+    Elija un color: <input type="color"> <br />
+    <textarea rows='6' cols='59'> Utilice este cuadro para escribir</textarea> <br />
+    Elija una fecha ><input type="date"> <br />
+    <select name="idioma">
+        <option value='ingles'>Ingles<option>
+        <option value='aleman'>Alemán<option>
+        <option value='frances'>Frances<option>
+    </select>
+    <br />
+    Elija una hora:<input type="time"> <br />
+    <input type="checkbox" name='sexo' value='sexomujer'> Mujer 
+    <input type="checkbox" name='sexo' value='sexohombre'> Hombre 
+    <br />
+    <input type="submit" name="Enviar">
+  </fieldset>
+</form>
+
+</body>
+</html>

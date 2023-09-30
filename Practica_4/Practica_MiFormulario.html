@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <br />
+            <legend>Detalles de la foto</legend>
+            Título <br> <input type="text" name="nombre" required size="70"> <br> <br />
+            Descripción <br> <textarea name="descripcion" rows="8" cols="80" required></textarea> <br>
+            <br />
+
+            Continente <br>
+            <select name="País">
+                <option value='Escoger continente'>Escoger continente</option>
+                <option value='Africa'>Africa</option>
+                <option value='Asia'>Asia</option>
+                <option value='Europa'>Europa</option>
+                <option value='Norte América'>Norte América</option>
+                <option value='Sur América'>Sur América</option>
+            </select>
+            <br><br />
+
+            <div style="float: right;">
+                Copyright? <br>
+                <input type='radio' name='derechos' value='derechosreservados'> Todos los derechos reservados <br>
+                <input type='radio' name='creative' value='creativecommons' checked=" radio"> Creative Commons <br>
+                Licencias Creative Commons <br>
+                <input type="checkbox" name='licencia' value='licenciaatribucion'> Atribución <br>
+                <input type="checkbox" name='licencia' value='licencianocomercial'> No comercial <br>
+                <input type="checkbox" name='licencia' value='licencianohaytrabajos'> No hay trabajos derivativos <br>
+                <input type="checkbox" name='licencia' value='licenciacompartir'> Compartir por igual <br> </br>
+                Fecha de toma: <br><input type="date"><br> <br>
+                Hora de toma: <br><input type="time"><br>
+            </div>
+
+            País <br>
+            <select name="País">
+                <option value='País'>País</option>
+                <option value='Canada'>Canada</option>
+                <option value='México'>México</option>
+                <option value='Estados Unidos'>Estados Unidos</option>
+            </select>
+            <br><br />
+
+            <div>
+                <label for="ciudad">Ciudad:</label><br>
+                <input type="text" id="ciudad" name="ciudad" list="ciudades">
+                <datalist id="ciudades">
+                    <option value="Calgarí">
+                    <option value="Montreal">
+                    <option value="Toronto">
+                    <option value="Vancouver">
+                    <option value="Tlaxcala">
+                </datalist>
+            </div>
+
+
+
+            <p>
+                Acepta la licencia de software <input type="checkbox" name="condiciones">
+            </p>
+
+            Califica esta foto: <br><input type="number" name="calificacion" required size="5"><br> <br>
+            Colección de color: <br><input type="color" name="calificacion" required size="5"> <br> <br>
+
+
+
+            <input type="submit" name="Enviar">
+            <input type="submit" name="limpiar">
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

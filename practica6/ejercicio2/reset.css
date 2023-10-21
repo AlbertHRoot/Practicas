@@ -1,0 +1,52 @@
+body {
+    background-image: url('images/art-background4.jpg');
+    background-size: cover;
+  }
+
+  header {
+    padding: 1em 8em 1em 1em;
+    margin: 0 0 5em 10em;
+    background-color: white;
+    max-width: 25em;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  }
+
+  h1{
+    font-size: 30px; 
+  }
+
+  .sub1{
+    font-size: 15px; 
+  }
+
+  article{
+    margin: 0 0 8em 10em;
+    font-size: "six-caps";
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 25em;
+  }
+
+  h2{
+    font-family: Arial, sans-serif;
+    padding: 10px 1em 10px 1em;
+    background-color: rgba(255, 255, 255, 0.7); /* Gris con 50% de transparencia */
+  }
+
+  .p1{
+    padding: 0 1em 0 1em;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .p2{
+    padding: 1em;
+    margin: 0 150px 1em 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); /* Gris con 50% de transparencia */
+  }
+
+  footer {
+    padding: 1em;
+    background-color: white;
+  }

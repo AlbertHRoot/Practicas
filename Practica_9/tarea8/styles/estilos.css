@@ -1,0 +1,219 @@
+header{
+    display: flex;
+    height: 2em;
+    margin: 0 0 5px 0;
+    background-color: #92C5FC;
+    list-style: none;
+}
+
+.logo{
+    list-style: none;
+    color: white;
+    padding: 0 0 0 100px;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    font-family: Britannic Bold;
+}
+
+#Tabla ul {
+    margin: 5px;
+    list-style: none;
+    display: flex;
+    /* Añade estilos específicos para el #Tabla aquí */
+  }
+  
+  #Tabla a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px 20px;
+  }
+  
+  #Tabla ul li {
+    list-style: none;
+  }
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+/* Caja Principal */
+#box{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+/* Caja de enmedio */
+#middle{
+    flex-direction: column;
+    flex:50%;
+    display: flex;
+    background-color: white;
+    margin: 0 1em 0 1em;
+
+}
+
+.breadcrumb{
+    display: flex;
+    padding: 1em;
+    margin: none;
+    background-color: #c0bfbf;
+}
+
+.company{
+    float: left;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* Caja Izquierda*/
+#railLeft{
+    float: left;
+    flex-direction: column;
+    flex: 15%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.alertLeft{
+    color: #8C8484;
+    padding: 1em;
+    margin: 0 0 2em 0;
+    font-family: 'Calibri Light',Courier New, Courier, monospace;
+    background-color: #ECE7E6;
+}
+
+.formas{
+    background-color: #d8583f;
+    padding: 1em;
+    margin: none;
+    list-style: none;
+    background-color: #ECE7E6;
+    margin: 0 0 2em 0;
+    font-family: 'Calibri Light',Courier New, Courier, monospace;
+}
+
+#middle h2{
+font-size: 30px;
+
+}
+
+.formas ul li {
+    list-style: none;
+  }
+
+
+
+.personitas{
+    background-color: rgb(237, 100, 214);
+    margin: 1em;
+}
+
+.personitas h3{
+    background-color:rgb(159, 159, 230) ;
+    padding: 1em;
+    margin: 10px;
+    font-family: 'Calibri Light',Courier New, Courier, monospace;
+
+}
+
+.personitas ul li {
+    list-style: none;
+  }
+
+.personitas img{
+    float: left;
+    list-style: none;
+    padding: 5px;
+
+}
+
+#recentMessageList{
+    background-color: white;
+}
+.personitas p {
+    font-size: 15px;
+    padding: 4px 1px 4px 10px;
+    list-style: none;
+    font-family: 'Calibri Light',Courier New, Courier, monospace;
+
+  }
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Caja derecha */
+#box aside{
+    flex-direction: column;
+    flex: 15%;
+    display: flex;
+    background-color: rgb(241, 229, 58);
+}
+
+.great1{
+    background-color: #ECE7E6;
+
+}
+
+.great1 h3{
+    background-color: #95D6E5;
+    display: flex;
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.great1 ul{
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    margin: 15px;
+}
+
+.chNumber{
+    float: left;
+
+}
+
+.great1 li{
+    list-style-type: none;
+    
+}
+
+.great1 p{
+    text-align: center;
+    margin: 5px 2px 5px 2px;
+
+}
+
+.great2{
+    background-color: rgb(255, 255, 255);
+    margin: 1em;
+}
+
+#titulo{
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #95D6E5;
+}
+
+.great2 ul{
+    list-style: none;
+}
+
+.great2 img{
+    display: flex;
+    flex-direction: column;
+}
+
+#great2 li{
+float: right;
+}

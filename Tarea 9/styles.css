@@ -1,0 +1,47 @@
+body {
+    background-color: khaki;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#tarea {
+    width: 70%;
+    padding: 5px;
+}
+
+#agregarTarea {
+    padding: 5px 10px;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: rgb(21, 22, 22);
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ecc30c;
+    cursor: pointer;
+}
+
+li.completada {
+    text-decoration: line-through;
+}
+
+button.eliminar {
+    background-color: rgb(194, 181, 4)(170, 94, 94);
+    color: rgb(14, 13, 13);
+    border: none;
+    padding: 2px 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}

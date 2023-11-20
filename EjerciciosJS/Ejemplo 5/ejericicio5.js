@@ -1,8 +1,10 @@
-//Agregamos el elemento target que referencia la imagen y quitamos un event
 function abrirRegalo() {
-    //const image = document.querySelector('img');
     const image = event.currentTarget;
     image.src = 'giphy.gif';
+
+    const mensaje = document.querySelector ('h1');
+    mensaje.textContent = 'Felicidades';
+
     image.removeEventListener('click', abrirRegalo);
 }
 
